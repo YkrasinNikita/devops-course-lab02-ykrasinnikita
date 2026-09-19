@@ -18,7 +18,7 @@ def multiply(a, b):
 
 def divide(a, b):
     """Деление двух чисел."""
-    if b == 0:
+    if b == 0 or b == 0.0:
         raise ValueError("Cannot divide by zero")
     return a / b
 
