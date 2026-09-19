@@ -12,5 +12,15 @@ def subtract(a, b):
 
 
 # TODO: добавить функции multiply и divide
-# TODO: добавить функцию power
-# TODO: добавить функцию modulo
+
+
+def power(a, b):
+    """Возведение в степень."""
+    return a ** b
+
+
+def modulo(a, b):
+    """Остаток от деления."""
+    if b == 0:
+        raise ValueError("Cannot modulo by zero")
+    return a % b
