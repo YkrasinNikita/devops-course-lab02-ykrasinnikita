@@ -16,6 +16,12 @@ def multiply(a, b):
     return a * b
 
 
-# TODO: добавить функцию divide
+def divide(a, b):
+    """Деление двух чисел."""
+    if b == 0:
+        raise ValueError("Cannot divide by zero")
+    return a / b
+
+
 # TODO: добавить функцию power
 # TODO: добавить функцию modulo
