@@ -1,0 +1,30 @@
+*   7b243fa (HEAD -> develop, origin/develop) Merge branch 'hotfix/0.3.1-divide-check' into develop
+|\  
+* \   ee32c6a Merge branch 'release/0.3.0' into develop
+|\ \  
+| | | *   639c0f6 (tag: v0.3.1, origin/main, main) Merge branch 'hotfix/0.3.1-divide-check' into main
+| | | |\  
+| | | |/  
+| | |/|   
+| | * | 6e2e21e fix(calculator): handle float zero in divide function
+| | |/  
+| | *   9788085 (tag: v0.3.0) Merge branch 'release/0.3.0' into main
+| | |\  
+| | |/  
+| |/|   
+| * | 260442f docs: add changelog for v0.3.0
+|/ /  
+* |   9ba25c7 Merge branch 'feature/power-modulo' into develop
+|\ \  
+| * | 6c2fa85 feat(main): use power and modulo in main module
+| * | bfdc56c feat(calculator): add power and modulo functions
+| |/  
+* |   ff4e4d9 Merge branch 'feature/multiply-divide' into develop
+|\ \  
+| |/  
+|/|   
+| * 89c2445 feat(main): use multiply and divide in main module
+| * 8b60485 feat(calculator): add divide function with zero check
+| * c71e761 feat(calculator): add multiply function
+|/  
+* f02bc09 feat: initial project structure with basic calculator
